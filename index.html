@@ -11,20 +11,19 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-      <div class="container">
-          <div class="text-center my-5">
-            <button id="random" type="button" class="btn btn-primary btn-lg center-block">RANDOM</button>
-        </div>
-        <div class="input-group my-5">
-            <input id="input" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-            <span class="input-group-btn">
-                <button id="go" class="btn btn-secondary" type="button">Go!</button>
-            </span>
-        </div>
-        <div id="loader" class="text-center">
-                <span class="fa fa-circle-o-notch fa-spin fa-3x text-primary"></span>
+      <div class="container-fluid">
+            <div class="text-center my-5">
+                <button id="random" type="button" class="btn btn-primary btn-lg center-block">RANDOM</button>
             </div>
-        <div id="list" class="list-group">
+            <div class="input-group my-5">
+                <input id="input" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                <span class="input-group-btn">
+                    <button id="go" class="btn btn-secondary" type="button">Go!</button>
+                </span>
+            </div>
+            <span id="loader" style="display: none" class="text-center fa fa-circle-o-notch fa-spin fa-3x text-primary">
+            </span>
+            <div id="list" class="list-group">
         </div>
         
 
