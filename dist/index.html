@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>titre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- googleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Encode+Sans+Expanded|Encode+Sans+Semi+Condensed|Kite+One|Laila|Libre+Barcode+39+Text|Mandali|Nova+Mono|Pavanam|Stint+Ultra+Expanded"
+        rel="stylesheet">
+
+    <!-- fontAwesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+
+<body id="body">
+    <div class="container-fluid text-center text-white mt-4">
+        <h1>Wiki Viewer</h1>
+        <div class="text-center my-5">
+            <button id="random" type="button" class="btn btn-primary btn-lg center-block">Wiki Random <i class="fas fa-random"></i></button>
+        </div>
+        <div class="input-group my-5">
+            <input id="input" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+            <span class="input-group-btn">
+                <button id="go" class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+            </span>
+        </div>
+        <span id="loader" class="text-center text-light"><i class="fas fa-spinner fa-spin fa-3x text-light"></i>
+        </span>
+        <div id="list" class="list-group">
+    </div>
+    <!-- customJs -->
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

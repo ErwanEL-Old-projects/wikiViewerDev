@@ -1,0 +1,21 @@
+{
+  "name": "wikiviewer",
+  "version": "1.0.0",
+  "description": "*********************************************************************\r                                 NPM\r *********************************************************************\r - installer tout les modules nécessaires\r     Ne pas oublier:\r         Pour les modules ne servant pas uniquement pour le dev comme par exemple bootstrap, installer le module en dependencie:\r             - $ --save\r         Pour tout les autres modules:\r             - $ --save-dev",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify-es": "^1.0.1",
+    "pump": "^3.0.0"
+  }
+}

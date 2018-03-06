@@ -1,0 +1,47 @@
+@import "C:/Users/leblo/AppData/Roaming/npm/node_modules/bootstrap/scss/_functions";
+@import "C:/Users/leblo/AppData/Roaming/npm/node_modules/bootstrap/scss/_variables";
+//Pour utiliser le bootstrap en module local
+// @import "../../node_modules/bootstrap/scss/_functions";
+// @import "../../node_modules/bootstrap/scss/_variables";
+/********************************************************************                                VARIABLES ********************************************************************/
+// Variable Overrides 
+$theme-colors: (
+    "primary":    #02475e,
+    "secondary":  #507a96,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      #cacaca,
+    "dark":       $dark
+);
+
+// Custom Variables
+$customPrimary: #02475e;
+$customSecondary: #507a96;
+$third: #5b87a8;
+$customLight: #cacaca;
+
+$body-bg: $customSecondary;
+
+/********************************************************************
+                                STYLES
+********************************************************************/
+.container-fluid h1 {
+    font-family: 'mandali', sans-serif;
+}
+
+#loader {
+    display: none;
+}
+
+.active {
+    background-color: $customPrimary !important;
+    border: solid 1px white !important;
+}
+
+
+// Bootstrap Sass Imports
+@import"C:/Users/leblo/AppData/Roaming/npm/node_modules/bootstrap/scss/bootstrap";
+//Pour utiliser le bootstrap en module local
+// @import"../../node_modules/bootstrap/scss/bootstrap";
