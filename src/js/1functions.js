@@ -7,7 +7,7 @@ const userInterface = () =>  {
     results.forEach(result => {
         titles.push(result.title);
         snippets.push(result.snippet);
-        list.innerHTML += `<a href="https://en.wikipedia.org/wiki/${result.title}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+        list.innerHTML += `<a href="https://${userLang}.wikipedia.org/wiki/${result.title}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
                                     <h5 class="mb-1">${result.title}</h5>
                                 </div>
